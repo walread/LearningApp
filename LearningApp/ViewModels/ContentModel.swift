@@ -42,7 +42,7 @@ class ContentModel: ObservableObject {
         }
         
         // Parse the style data
-        let styleUrl = Bundle.main.url(forResource: "sytle", withExtension: "html")
+        let styleUrl = Bundle.main.url(forResource: "style", withExtension: "html")
         
         do {
             
