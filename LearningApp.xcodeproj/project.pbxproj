@@ -19,6 +19,9 @@
 		AC59FC252971905700A55705 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59FC242971905700A55705 /* ContentView.swift */; };
 		AC59FC272974825B00A55705 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59FC262974825B00A55705 /* ContentViewRow.swift */; };
 		AC59FC29297485CE00A55705 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59FC28297485CE00A55705 /* ContentDetailView.swift */; };
+		AC59FC2C2974892600A55705 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC59FC2B2974892600A55705 /* AVKit.framework */; };
+		AC59FC2E2975679600A55705 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59FC2D2975679600A55705 /* Constants.swift */; };
+		AC59FC7C2976C3E400A55705 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59FC7B2976C3E400A55705 /* CodeTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		AC59FC242971905700A55705 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC59FC262974825B00A55705 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 		AC59FC28297485CE00A55705 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		AC59FC2B2974892600A55705 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		AC59FC2D2975679600A55705 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC59FC7B2976C3E400A55705 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC59FC2C2974892600A55705 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +60,7 @@
 			children = (
 				AC33CB2C297022CF0034A660 /* LearningApp */,
 				AC33CB2B297022CF0034A660 /* Products */,
+				AC59FC2A2974892600A55705 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +103,7 @@
 				AC59FC242971905700A55705 /* ContentView.swift */,
 				AC59FC262974825B00A55705 /* ContentViewRow.swift */,
 				AC59FC28297485CE00A55705 /* ContentDetailView.swift */,
+				AC59FC7B2976C3E400A55705 /* CodeTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +129,7 @@
 			children = (
 				AC59FC1C2970296100A55705 /* data.json */,
 				AC59FC1D2970296100A55705 /* style.html */,
+				AC59FC2D2975679600A55705 /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -129,6 +139,14 @@
 			children = (
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AC59FC2A2974892600A55705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC59FC2B2974892600A55705 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +227,10 @@
 				AC59FC29297485CE00A55705 /* ContentDetailView.swift in Sources */,
 				AC33CB2E297022CF0034A660 /* LearningApp.swift in Sources */,
 				AC59FC272974825B00A55705 /* ContentViewRow.swift in Sources */,
+				AC59FC7C2976C3E400A55705 /* CodeTextView.swift in Sources */,
 				AC33CB42297025C70034A660 /* ContentModel.swift in Sources */,
 				AC59FC2129702EE000A55705 /* Models.swift in Sources */,
+				AC59FC2E2975679600A55705 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
